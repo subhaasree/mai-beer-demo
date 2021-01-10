@@ -1,0 +1,249 @@
+.HomeMid {
+  top: 534px;
+  left: 0px;
+  height: 320px;
+  background: #f7f2e8 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: flex;
+  margin: 0px;
+  margin-top: 200px;
+}
+
+.HomeMid-Left {
+  margin: 0px;
+  width: 30%;
+  background-color: #eba600;
+  height: 320px;
+}
+
+.middle {
+  height: 600px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.middle::before,
+.middle::after {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 155px;
+  background-color: #eba600;
+}
+
+.middle::before {
+  top: 115px;
+  left: 0;
+  width: 40%;
+  transform: skew(0deg, 10deg);
+}
+
+.middle::after {
+  left: 0;
+  left: 0px;
+  width: 40%;
+  transform: skew(0deg, -10deg);
+}
+
+.left-middle {
+  width: 50%;
+  height: 200px;
+  background-color: #eba600;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.HomeMid-Right {
+  position: relative;
+  width: 30%;
+  height: 200px;
+  padding-left: 100px;
+  background-color: #f7f2e8;
+}
+
+@media screen and (max-width: 1366px) and (min-width: 768px) {
+  .HomeMid-Right {
+    font-size: 36px;
+    float: left;
+  }
+}
+
+.Right-Heading {
+  top: 564px;
+  left: 968px;
+  width: 511px;
+  height: 59px;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0px;
+  color: #393b40;
+  opacity: 1;
+  padding-top: 5px;
+  padding-left: 170px;
+  padding-right: 50px;
+}
+
+.Right-Paragh {
+  top: 647px;
+  left: 968px;
+  width: 674px;
+  height: 63px;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+  padding-top: 5px;
+  padding-left: 170px;
+  padding-right: 50px;
+}
+
+.button-at {
+  float: left;
+  padding-top: 5px;
+  padding-left: 170px;
+  padding-right: 50px;
+}
+
+.Right-Button {
+  top: 734px;
+  left: 968px;
+  width: 320px;
+  height: 73px;
+  background: #eba600 0% 0% no-repeat padding-box;
+  box-shadow: 2px 3px 6px white;
+  border-radius: 16px;
+  border: white;
+  opacity: 1;
+  color: white;
+  text-transform: capitalize;
+  font-size: larger;
+}
+
+.Right-Button:disabled {
+  background-color: #ccc !important;
+  opacity: 0.8;
+  cursor: not-allowed;
+}
+
+.upleft {
+  top: 0;
+  transform: skewY(12.5deg);
+  transform-origin: 100% 0;
+  background: inherit;
+  color: #eba600;
+  content: "";
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+
+.downleft {
+  bottom: 0;
+  transform: skewY(-12.5deg);
+  transform-origin: 100%;
+  background: inherit;
+  color: #eba600;
+  content: "";
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+
+.BeerImg {
+  width: 314px;
+  height: 687px;
+  background: transparent url("../../../Assests/beer/beer.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  position: relative;
+  top: -150px;
+}
+
+.warp_BeerImg {
+  position: absolute;
+  left: 20%;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1366px) and (min-width: 768px) {
+  .warp_BeerImg {
+    width: auto !important;
+  }
+}
+
+.end_dec {
+  top: 1263px;
+  left: 756px;
+  width: 409px;
+  height: 19px;
+  opacity: 1;
+  margin-top: 300px;
+  margin-left: 50%;
+}
+
+.endin {
+  top: 1268px;
+  left: 955px;
+  width: 13px;
+  height: 12px;
+  background: #d3d3d3 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.footer {
+  background-color: #f7f2e8;
+  padding: 20px;
+  margin: 20px 0px;
+  text-align: center;
+  margin-bottom: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-why {
+  background-color: #f7f2e8;
+  padding: 20px;
+  margin: 0px 0px;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-why .footer-ques {
+  font-weight: bold;
+  margin: 10px 0px;
+}
+
+.footer-why .footer-desc {
+  font-weight: 300;
+  margin: 10px 0px;
+}
+
+.button_nav {
+  color: #ccc;
+  display: inline;
+}
+
+.button-tri {
+  width: 320px;
+  height: 65px;
+  background: #e6e6e6 0% 0% no-repeat padding-box;
+  box-shadow: 2px 3px 6px gray;
+  border-radius: 16px;
+  opacity: 1;
+  display: inline-block;
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  border: transparent;
+  margin-bottom: auto;
+}
