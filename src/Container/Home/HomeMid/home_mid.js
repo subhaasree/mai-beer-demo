@@ -27,9 +27,7 @@ function HomeMid() {
           </div>
         </Container>
       </div>
-      <div className="end_dec">
-        <div className="endin"></div>
-      </div>
+      <div className="end_dec"></div>
       <div className="footer">
         <div style={{ margin: "20px" }}>
           Thanks for taking the time with us.

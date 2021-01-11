@@ -4,9 +4,11 @@
 }
 .nav-button .btn-icon.left {
   left: 0;
+  padding-left: 20px;
 }
 .nav-button .btn-icon.right {
   right: 0;
+  padding-right: 20px;
 }
 .nav-button .btn-icon img {
   width: 44px;

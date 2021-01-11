@@ -40,10 +40,18 @@
 }
 .nav-button .btn-icon.left {
   left: 0;
-  color: gray;
 }
+
 .nav-button .btn-icon.right {
   right: 0;
+}
+
+.nav-button .secondary.arrow-left {
+  color: white;
+}
+.nav-button.secondary {
+  color: white;
+  border: 1px solid #eba800;
 }
 .nav-button .btn-icon img {
   width: 44px;
@@ -58,6 +66,7 @@
 
 .action-wrapper {
   text-align: right;
+  color: white;
 }
 
 .pagination {
